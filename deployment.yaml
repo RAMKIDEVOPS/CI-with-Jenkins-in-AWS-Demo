@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp2
-        image: gcr.io/1313657/kubernetesrepos:tagversion
+        image: gcr.io/karthikhdk/kubernetesrepos:tagversion
         ports:
         - containerPort: 8080
 ---
