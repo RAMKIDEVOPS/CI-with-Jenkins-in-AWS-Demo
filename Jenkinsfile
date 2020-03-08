@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         PROJECT_ID = 'karthikhdk'
-        CLUSTER_NAME = ' kube-demo	'
+        CLUSTER_NAME = 'kube-demo'
         LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'kuberneteslogin'
     }
