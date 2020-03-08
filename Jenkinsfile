@@ -27,7 +27,7 @@ pipeline {
         stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("hariharandevops/kubernetesrepos:${env.BUILD_ID}")
+                    myapp = docker.build("1313657/kubernetesrepos:${env.BUILD_ID}")
                 }
             }
         }
