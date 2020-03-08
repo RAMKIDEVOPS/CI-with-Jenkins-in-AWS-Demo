@@ -27,7 +27,7 @@ pipeline {
         stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("gcr.io/secure-totality-266019/kubernetesrepos:${env.BUILD_ID}")
+                    myapp = docker.build("gcr.io/1313657/kubernetesrepos:${env.BUILD_ID}")
                 }
             }
         }
