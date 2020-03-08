@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'secure-totality-266019'
-        CLUSTER_NAME = 'cluster-k8s'
+        PROJECT_ID = 'karthikhdk'
+        CLUSTER_NAME = ' kube-demo	'
         LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'kuberneteslogin'
     }
