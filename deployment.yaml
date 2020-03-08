@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp1
-        image: hariharandevops/kubernetesrepos:tagversion
+        image: 1313657/kubernetesrepos:tagversion
         ports:
         - containerPort: 8080
 ---
