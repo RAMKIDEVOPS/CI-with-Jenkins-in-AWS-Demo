@@ -1,0 +1,22 @@
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: webapp1
+spec: 
+  replicas: 3
+  selector: 
+    matchLabels: 
+      app: webapp1
+  template: 
+    metadata: 
+      labels: 
+        app: webapp1
+    spec: 
+      containers: 
+        - 
+          image: "vinaymahesh/devops:tagversion"
+          name: webapp1
+          ports: 
+            - 
+              containerPort: 8080
